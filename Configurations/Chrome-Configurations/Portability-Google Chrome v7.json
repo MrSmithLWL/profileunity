@@ -1,0 +1,74 @@
+{
+  "DateExported": "2016-08-03T13:51:35.0335683Z",
+  "ProuVersion": "6.5.6037",
+  "Configurations": [],
+  "Filters": [],
+  "PortabilityRulesets": [
+    {
+      "Comments": "",
+      "FilesystemRules": [
+        {
+          "Folder": 12,
+          "Operation": 0,
+          "Path": "google\\Chrome\\User Data\\Default"
+        },
+        {
+          "Folder": 12,
+          "Operation": 2,
+          "Path": "google\\Chrome\\User Data\\Default\\Cache"
+        },
+        {
+          "Folder": 12,
+          "Operation": 2,
+          "Path": "google\\Chrome\\User Data\\Default\\Media Cache"
+        },
+        {
+          "Folder": 12,
+          "Operation": 0,
+          "Path": "google\\Chrome\\User Data\\*First Run*"
+        },
+        {
+          "Folder": 12,
+          "Operation": 2,
+          "Path": "google\\Chrome\\User Data\\Default\\Application Cache\\Cache"
+        },
+        {
+          "Folder": 12,
+          "Operation": 2,
+          "Path": "google\\Chrome\\User Data\\Default\\Storage\\ext\\chrome-signin\\def\\Cache"
+        },
+        {
+          "Folder": 12,
+          "Operation": 2,
+          "Path": "google\\Chrome\\User Data\\Default\\GPUCache"
+        },
+        {
+          "Folder": 12,
+          "Operation": 0,
+          "Path": "google\\Chrome\\User Data\\*Local State*"
+        },
+        {
+          "Folder": 12,
+          "Operation": 2,
+          "Path": "google\\Chrome\\User Data\\Default\\*ChromeDWriteFontCache*"
+        }
+      ],
+      "Name": "Google Chrome",
+      "RegistryRules": [
+        {
+          "Hive": 0,
+          "Operation": 0,
+          "Path": "software\\google",
+          "Scope": 0
+        }
+      ],
+      "CreatedBy": "administrator",
+      "DateCreated": "2016-06-04T18:52:48Z",
+      "DateLastModified": "2016-07-12T20:11:45.078Z",
+      "Disabled": false,
+      "Id": "5753238008845e05a0ad693a",
+      "LastModifiedBy": "administrator"
+    }
+  ],
+  "Templates": []
+}
