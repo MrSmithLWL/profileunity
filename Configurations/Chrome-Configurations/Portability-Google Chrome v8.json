@@ -1,16 +1,26 @@
 {
-  "DateExported": "2016-08-03T13:51:35.0335683Z",
-  "ProuVersion": "6.5.6037",
+  "DateExported": "2016-12-07T20:41:40.3600764Z",
+  "ProuVersion": "6.5.6116",
   "Configurations": [],
   "Filters": [],
   "PortabilityRulesets": [
     {
-      "Comments": "",
+      "Comments": "v8",
       "FilesystemRules": [
         {
           "Folder": 12,
-          "Operation": 0,
+          "Operation": 1,
           "Path": "google\\Chrome\\User Data\\Default"
+        },
+        {
+          "Folder": 12,
+          "Operation": 1,
+          "Path": "google\\Chrome\\User Data\\*Local State*"
+        },
+        {
+          "Folder": 12,
+          "Operation": 1,
+          "Path": "google\\Chrome\\User Data\\*First Run*"
         },
         {
           "Folder": 12,
@@ -21,11 +31,6 @@
           "Folder": 12,
           "Operation": 2,
           "Path": "google\\Chrome\\User Data\\Default\\Media Cache"
-        },
-        {
-          "Folder": 12,
-          "Operation": 0,
-          "Path": "google\\Chrome\\User Data\\*First Run*"
         },
         {
           "Folder": 12,
@@ -44,29 +49,22 @@
         },
         {
           "Folder": 12,
-          "Operation": 0,
-          "Path": "google\\Chrome\\User Data\\*Local State*"
+          "Operation": 2,
+          "Path": "google\\Chrome\\User Data\\Default\\*ChromeDWriteFontCache*"
         },
         {
           "Folder": 12,
           "Operation": 2,
-          "Path": "google\\Chrome\\User Data\\Default\\*ChromeDWriteFontCache*"
+          "Path": "google\\Chrome\\User Data\\Default\\Storage"
         }
       ],
-      "Name": "Google Chrome",
-      "RegistryRules": [
-        {
-          "Hive": 0,
-          "Operation": 0,
-          "Path": "software\\google",
-          "Scope": 0
-        }
-      ],
+      "Name": "Google Chrome v8",
+      "RegistryRules": [],
       "CreatedBy": "administrator",
-      "DateCreated": "2016-06-04T18:52:48Z",
-      "DateLastModified": "2016-07-12T20:11:45.078Z",
+      "DateCreated": "2016-10-31T19:41:18Z",
+      "DateLastModified": "2016-12-07T20:41:38.013Z",
       "Disabled": false,
-      "Id": "5753238008845e05a0ad693a",
+      "Id": "58179e5e08845e060cb54412",
       "LastModifiedBy": "administrator"
     }
   ],
