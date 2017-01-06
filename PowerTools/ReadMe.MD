@@ -92,7 +92,7 @@ Replace-ProUFilter (find/Replace function)
 ````
 ````
 V3:
-Experimental Stuff (this might actually get added into the GUI)
+(Experimental Stuff)
 Import GPP Regkeys
 Import GPP Folder redirect
 Import GPP shortcuts
