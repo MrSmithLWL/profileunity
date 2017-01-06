@@ -79,7 +79,8 @@ The backslash at the end of the path is important
 
 
 Future Build Information<br>
-Things on the list that I want to put in V2
+````
+V2:
 Load Filters from CSV
 Load Printers from CSV (updated)
 Set-ProUPortabiltysetting (sets all option settings)
@@ -88,8 +89,9 @@ Set-ProUFilterValue (sets/Adds condition values)
 Replace-ProUPortSettings (find/Replace function)
 Replace-ProUFolderRedirection (find/Replace function)
 Replace-ProUFilter (find/Replace function)
-
-V3
+````
+````
+V3:
 Experimental Stuff (this might actually get added into the GUI)
 Import GPP Regkeys
 Import GPP Folder redirect
@@ -97,7 +99,7 @@ Import GPP shortcuts
 Import POL into regkey module
 Import Groups from AD OU to create proU Filters
 Import Printer List from print server to create ProU Filters
-
+````
 
 
 
