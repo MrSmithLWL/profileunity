@@ -1,26 +1,27 @@
-# ProfileUnity PowerTools Powershell Commands
+## ProfileUnity PowerTools Powershell Commands
 
-Description <br>
+## Description ## <br>
 This Is a powershell module that can be used to create change and save items with in the ProfileUnity Web Console.<br>
 
-How to Use<br>
+## How to Use ## <br>
 
-Requirments<br>
-This was built on the latest version of PowerShell.
+## Prerequisites ## <br>
+This was built on the latest version of PowerShell.<br>
 https://www.microsoft.com/en-us/download/details.aspx?id=50395
 
-To load copy the PSM1 down into a folder.
-In PowerShell type:
+To load 
+- **copy the PSM1 down into a folder.**
+- **In PowerShell type**:
 ````
 Import-module ProUPowerTools.v1.psm1
 ````
-If you get an Execution Policy error.
+- **If you get an Execution Policy error.**
 ````
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ````
 This is really basic, no editing stuff just yet just doing a quick trial run on it.
 
-Please be careful, with this as you could break your stuff if you aren’t careful mainly in the import/Export json stuff, thought it should be ok.
+## Please be careful, with this as you could break your stuff if you aren’t careful mainly in the import/Export json stuff, thought it should be ok. ##
 
 
 Things you can do in V1:
